@@ -1,9 +1,8 @@
 <?php
 /**
- * CMB Framework
+ * CMB Metaboxes Foundation
  *
- * Intended to be used as a single include for the fantastic
- * CMB Metabox library on websites with multiple implementations!
+ * A foundation plugin that includes the fantastic Custom Metaboxes and Fields for WordPress library on sites that require several implementations.
  *
  * @package   CGD_CMBFramework
  * @author    Clifton H. Griffin II <clif@cgd.io>
@@ -14,7 +13,7 @@
  * @wordpress-plugin
  * Plugin Name:       CMB Framework
  * Plugin URI:        http://cgd.io/
- * Description:       Intended to be used as a single include for the fantastic CMB Metabox library on websites with multiple implementations.
+ * Description:       A foundation plugin that includes the fantastic Custom Metaboxes and Fields for WordPress library on sites that require several implementations.
  * Version:           1.0.0
  * Author:            CGD Inc.
  * Author URI:        http://cgd.io
@@ -22,7 +21,7 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-class CGD_CMBFramework {
+class CGD_CMBFoundation {
 	public function __construct() {
 		add_action( 'init', array($this, 'cmb_initialize_cmb_meta_boxes'), 9999 );
 	}
@@ -33,4 +32,4 @@ class CGD_CMBFramework {
 	}
 }
 
-$CGD_CMBFramework = new CGD_CMBFramework();
+$CGD_CMBFoundation = new CGD_CMBFoundation();
