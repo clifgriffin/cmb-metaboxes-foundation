@@ -14,7 +14,7 @@
  * Plugin Name:       CMB Framework
  * Plugin URI:        http://cgd.io/
  * Description:       A foundation plugin that includes the fantastic Custom Metaboxes and Fields for WordPress library on sites that require several implementations.
- * Version:           1.1.1
+ * Version:           1.1.3
  * Author:            CGD Inc.
  * Author URI:        http://cgd.io
  * License:           GPL-2.0+
